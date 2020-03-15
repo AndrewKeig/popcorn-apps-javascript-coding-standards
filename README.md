@@ -158,15 +158,12 @@ Please make an effort to write tests, use `Jest`, as it has:
 
 Notes:
 
-- Testing is easy when functions are small, and do a single thing; the single responsibility principle will help you
+- Testing is easy when functions are small, and do a single thing
 - You should mock calls to external APIs
 - Create fixture files for intergration tests
 - Tear down resouces after/before test runs
 - Assert against `status codes`, `messages` and some part of the `http response`
 - Tests act as documentation so use good naming conventions, so its obvious what the test is testing
-
-
-https://codepen.io/allanpope/post/single-responsibility-principle
 
 ### Integration Testing
 
