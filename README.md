@@ -237,6 +237,7 @@ If your code does not make an IO bound call, no calls to DB/API etc, do not wrap
 
 This simply creates promises for no reason, and can cause memory leaks.
 
+https://youtu.be/XV-u_Ow47s0
 
 ## Frontend Development
 
