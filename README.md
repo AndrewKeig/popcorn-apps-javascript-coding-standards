@@ -206,7 +206,7 @@ Other useful tools for debuggging performance issues are `clinic.js` suit of too
 ## Asynchronous Programming
 
 - Use async await
-- Prefer modules that supports promises
+- Prefer modules that support promises
 - If you must use a module that uses callbacks, use promisify, or wrap callback function in a promise.
 
 - https://2ality.com/2017/05/util-promisify.html
@@ -214,7 +214,7 @@ Other useful tools for debuggging performance issues are `clinic.js` suit of too
 
 ## Asynchronous Iteration
 
-When performing IO bound/async operations, on multiple items in an array, using `async await` prefer `Promise.all/map` as it executes in parallel, you camn use also use a for-loop (or any loop without a callback).  Do not use `foreach`, it does not work correctly:
+When performing IO bound/async operations, on multiple items in an array, using `async await` prefer `Promise.all/map` as it executes in parallel, you can use also use a for-loop (or any loop without a callback).  Do not use `foreach`, it does not work correctly:
 
 e.g.
 
